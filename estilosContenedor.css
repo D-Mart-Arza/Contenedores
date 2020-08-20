@@ -1,0 +1,137 @@
+#cabecera{
+	font-family: arial;
+	font-size: 40px;
+	text-align: center;
+	background: gray;
+	font-weight: bold;
+	margin: 25px;
+	height: 80px;
+}
+h1{
+	margin: 0 250px;
+	background: gray;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+}
+
+#principal{
+	margin: 50px auto;
+	width: 1000px;
+	height: 300px;
+	background: gray;
+}
+
+.principal{
+	position: relative;
+	width: 230px;
+	height: 70px;
+	background: green;
+	border: 2px solid;
+}
+
+#segundo{
+    margin: 50px auto;
+	width: 1000px;
+	height: 100px;
+	background: gray;	
+}
+
+#caja1{
+   float: left;
+   width: 240px;
+   height: 91px;
+   margin: 5px;
+   background: yellow;
+   border:1px solid;
+}
+
+#caja2{
+	float: left;
+	width: 240px;
+    height: 91px;
+    margin: 5px;
+    background: yellow;
+    border:1px solid;
+}
+
+#caja3{
+	float: left;
+	width: 250px;
+    height: 91px;
+    margin: 5px;
+    background: yellow;
+    border:1px solid;
+}
+
+#caja4{
+	float: left;
+	width: 100px;
+    height: 91px;
+    margin: 5px;
+    background: yellow;
+    border:1px solid;
+}
+
+#tercero{
+    display: flex;
+    margin: 50px 168px;
+    width: 1000px;
+    height: 100px;
+    background: gray;	
+}
+
+#flex1{
+	flex: 2;
+	background: red;
+	margin: 5px;
+	border:1px solid;
+}
+#flex2{
+	flex: 1;
+	background: red;
+	margin: 5px;
+	border:1px solid;
+}
+#flex3{
+	flex: 1;
+	background: red;
+	margin: 5px;
+	border:1px solid;
+
+}
+
+#flex4{
+    flex: 1;	
+    background: red;
+    margin: 5px;
+    border:1px solid;
+}
+
+#cuarto{
+	display: grid;
+	grid-template-columns: auto auto;
+	margin: 50px 168px;
+	width: 1000px;
+	height: 100px;
+	background: gray;
+}
+#grid1{
+	background: orange;
+	border: 1px solid;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+#grid2{	
+   background: orange;
+   border: 1px solid; 
+}
+#grid3{
+	background: orange;
+	border: 1px solid;
+}
+#grid4{
+	background: orange;
+	border: 1px solid;
+}
